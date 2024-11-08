@@ -1,0 +1,24 @@
+Data accessed from the National Computational Infrastructure (NCI),
+
+reference: https://doi.org/10.25914/ysxb-rt43
+
+ACCESS-ESM1-5, physics scheme R5, experiment r6i1p1f1 (historical)
+
+Daily data from 1990-2009 extracted at 146.72 deg E, 36.571 deg S, being the
+streamflow gauge location of catchment 403210, Ovens River @ Myrtleford.
+
+(Most) variable names and units are given in:
+https://is-enes-data.github.io/CORDEX_variables_requirement_table.pdf
+
+The target variable (rainfall/precipitation) is "pr", which is given in units
+of kg.m^{-2}.s^{-1} (to convert to mm/day, multiply by 86400).
+
+Some variables may not appear in the CORDEX variables list, in particular the
+upper case variables (e.g. CAPE) which looks like it is a WRF (RCM) internal
+variable, rather than a GCM variable.
+
+Data was extracted via CDO remapnn function (nearest-neighbour mapping):
+https://code.mpimet.mpg.de/projects/cdo/embedded/index.html
+section 2.12.3
+
+Nick Potter 27 August 2024
