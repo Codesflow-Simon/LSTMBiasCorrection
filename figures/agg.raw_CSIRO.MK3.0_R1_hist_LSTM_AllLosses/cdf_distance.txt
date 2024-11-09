@@ -1,0 +1,5 @@
+Maximum distance between target and prediction CDFs: 0.7084188911704312
+Argmax distance: 0
+Area between CDFs: 0.3811190341520617
+Zero probability (observed): 0.0
+Zero probability (corrected): 0.0
