@@ -1,16 +1,16 @@
 {
     "train": {
-        "correlation": NaN,
-        "zero_pred_ratio": 1.0,
-        "rmse": 1.1825172627754679,
-        "max_cdf_distance": 0.7705338809034907,
-        "area_between_cdfs": 0.4043816839763611
+        "correlation": 0.11110512570887504,
+        "zero_pred_ratio": 0.3193018480492813,
+        "rmse": 1.5622103904846882,
+        "max_cdf_distance": 0.094566263813184,
+        "area_between_cdfs": 0.1716173392915924
     },
     "validation": {
-        "correlation": -0.2648984449627429,
-        "zero_pred_ratio": 0.0,
-        "rmse": 1.5200870935757833,
-        "max_cdf_distance": 0.8985979157808395,
-        "area_between_cdfs": 1.3779293055827586
+        "correlation": 0.1282820047625683,
+        "zero_pred_ratio": 0.2915811088295688,
+        "rmse": 1.5571981282504979,
+        "max_cdf_distance": 0.12208028136880372,
+        "area_between_cdfs": 0.17106076785038354
     }
 }

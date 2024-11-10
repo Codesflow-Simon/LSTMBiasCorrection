@@ -88,9 +88,10 @@ def set_model_on_data(train_df, validation_df, train_column, gt_column, losses, 
     min_rain = 0.1
     scaled_rain = normaliser.transform(np.array([[min_rain]])).item()
     
-    for loss in losses:
-        if hasattr(loss, 'set_scaled_rain'):
-            loss.set_scaled_rain(scaled_rain)
+    if losses is not None:
+        for loss in losses:
+            if hasattr(loss, 'set_scaled_rain'):
+                loss.set_scaled_rain(scaled_rain)
     
     if use_QM:
         model = QuantileMapping(train_input, train_target)
@@ -273,6 +274,11 @@ def main():
             
             while attempt < max_attempts and not model_accepted:
                 if model['type'] == 'LSTM':
+                    train_months = train_df['months'].values
+                    for loss in model['losses']:
+                        if isinstance(loss, (MonthlyAverageLoss, MonthlyMaxLoss)):
+                            loss.set_monthly_data(train_months)
+
                     model_instance, train_input, train_target, valid_input, valid_target = set_model_on_data(
                         train_df, validation_df, train_column, gt_column,
                         model['losses'], model['weights'], use_QM=False
@@ -325,7 +331,7 @@ def main():
             else:
                 print(f"  {column}:")
                 for metric, value in metrics.items():
-                    print(f"    {metric}: {value:.4f}")
+                    print(f"    {metric}: {value}")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,1166 @@
+{
+    "LSTM_AllLosses": {
+        "agg.raw_CCCMA3.1_R1_hist": {
+            "train": {
+                "correlation": 0.11110512570887504,
+                "zero_pred_ratio": 0.3193018480492813,
+                "rmse": 1.5622103904846882,
+                "max_cdf_distance": 0.094566263813184,
+                "area_between_cdfs": 0.1716173392915924
+            },
+            "validation": {
+                "correlation": 0.1282820047625683,
+                "zero_pred_ratio": 0.2915811088295688,
+                "rmse": 1.5571981282504979,
+                "max_cdf_distance": 0.12208028136880372,
+                "area_between_cdfs": 0.17106076785038354
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R1_hist": {
+            "train": {
+                "correlation": 0.16343176065557694,
+                "zero_pred_ratio": 0.28439425051334705,
+                "rmse": 1.720048605723814,
+                "max_cdf_distance": 0.09732448334011412,
+                "area_between_cdfs": 0.20170393460537855
+            },
+            "validation": {
+                "correlation": 0.191467507838304,
+                "zero_pred_ratio": 0.3319644079397673,
+                "rmse": 2.153621135761869,
+                "max_cdf_distance": 0.10872519021960847,
+                "area_between_cdfs": 0.5039685273772238
+            }
+        },
+        "agg.raw_ECHAM5_R1_hist": {
+            "train": {
+                "correlation": 0.027302496464344236,
+                "zero_pred_ratio": 0.29243668720054755,
+                "rmse": 1.417762174224393,
+                "max_cdf_distance": 0.09270322454208091,
+                "area_between_cdfs": 0.15127355090377348
+            },
+            "validation": {
+                "correlation": 0.01000693554318164,
+                "zero_pred_ratio": 0.2758384668035592,
+                "rmse": 1.3363501773825035,
+                "max_cdf_distance": 0.1544908157861808,
+                "area_between_cdfs": 0.14283130436709895
+            }
+        },
+        "agg.raw_MIROC3.2_R1_hist": {
+            "train": {
+                "correlation": 0.11736500731467837,
+                "zero_pred_ratio": 0.33281998631074605,
+                "rmse": 1.5499195763138756,
+                "max_cdf_distance": 0.10335386721423681,
+                "area_between_cdfs": 0.17444505112233208
+            },
+            "validation": {
+                "correlation": 0.09371483326084658,
+                "zero_pred_ratio": 0.3134839151266256,
+                "rmse": 1.8384903945461712,
+                "max_cdf_distance": 0.1505043654540109,
+                "area_between_cdfs": 0.3742445500868012
+            }
+        },
+        "agg.raw_CCCMA3.1_R2_hist": {
+            "train": {
+                "correlation": 0.1002168775267715,
+                "zero_pred_ratio": 0.22313483915126625,
+                "rmse": 1.9031202660437603,
+                "max_cdf_distance": 0.11409305095041611,
+                "area_between_cdfs": 0.24287951233120048
+            },
+            "validation": {
+                "correlation": 0.1064181565969631,
+                "zero_pred_ratio": 0.20876112251882273,
+                "rmse": 2.1567349103860014,
+                "max_cdf_distance": 0.16839646489842924,
+                "area_between_cdfs": 0.3670188896795886
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R2_hist": {
+            "train": {
+                "correlation": 0.21220818454944795,
+                "zero_pred_ratio": 0.3459958932238193,
+                "rmse": 1.9340100860077827,
+                "max_cdf_distance": 0.11652977412731005,
+                "area_between_cdfs": 0.18537299116899733
+            },
+            "validation": {
+                "correlation": 0.1949738938867767,
+                "zero_pred_ratio": 0.3894592744695414,
+                "rmse": 2.3405780125909685,
+                "max_cdf_distance": 0.09787816563997265,
+                "area_between_cdfs": 0.4326953213128625
+            }
+        },
+        "agg.raw_ECHAM5_R2_hist": {
+            "train": {
+                "correlation": 0.1605884372620312,
+                "zero_pred_ratio": 0.2946611909650924,
+                "rmse": 1.6884545658150891,
+                "max_cdf_distance": 0.10710322047799647,
+                "area_between_cdfs": 0.21618613895375433
+            },
+            "validation": {
+                "correlation": 0.1324201195809071,
+                "zero_pred_ratio": 0.25530458590006844,
+                "rmse": 1.9775264657152416,
+                "max_cdf_distance": 0.16169097281002975,
+                "area_between_cdfs": 0.41482255793552664
+            }
+        },
+        "agg.raw_MIROC3.2_R2_hist": {
+            "train": {
+                "correlation": 0.1725175502265576,
+                "zero_pred_ratio": 0.3386379192334018,
+                "rmse": 1.6899440135845971,
+                "max_cdf_distance": 0.10933505047596156,
+                "area_between_cdfs": 0.1940034765338703
+            },
+            "validation": {
+                "correlation": 0.16521838961782995,
+                "zero_pred_ratio": 0.3216974674880219,
+                "rmse": 1.7780767818622867,
+                "max_cdf_distance": 0.13243177019060481,
+                "area_between_cdfs": 0.23800640507397824
+            }
+        },
+        "agg.raw_CCCMA3.1_R3_hist": {
+            "train": {
+                "correlation": 0.08935019039970532,
+                "zero_pred_ratio": 0.07255304585900069,
+                "rmse": 1.5440002650780054,
+                "max_cdf_distance": 0.32869502888443813,
+                "area_between_cdfs": 0.24584667115067846
+            },
+            "validation": {
+                "correlation": 0.0375605397398182,
+                "zero_pred_ratio": 0.07255304585900069,
+                "rmse": 1.4705230673420013,
+                "max_cdf_distance": 0.41362276154025707,
+                "area_between_cdfs": 0.19631935903125342
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R3_hist": {
+            "train": {
+                "correlation": 0.21846710956455606,
+                "zero_pred_ratio": 0.42488021902806294,
+                "rmse": 1.3653067050680796,
+                "max_cdf_distance": 0.1954140999315537,
+                "area_between_cdfs": 0.09406161159601248
+            },
+            "validation": {
+                "correlation": 0.1967859101477001,
+                "zero_pred_ratio": 0.45790554414784396,
+                "rmse": 1.5157159927991355,
+                "max_cdf_distance": 0.16632443531827518,
+                "area_between_cdfs": 0.19140730427302388
+            }
+        },
+        "agg.raw_ECHAM5_R3_hist": {
+            "train": {
+                "correlation": 0.23418825821235778,
+                "zero_pred_ratio": 0.3968172484599589,
+                "rmse": 1.3730248169183323,
+                "max_cdf_distance": 0.16735112936344967,
+                "area_between_cdfs": 0.11299273148934903
+            },
+            "validation": {
+                "correlation": 0.3026919610335418,
+                "zero_pred_ratio": 0.36413415468856947,
+                "rmse": 1.0134947120602342,
+                "max_cdf_distance": 0.13445128236942866,
+                "area_between_cdfs": 0.11482938020397411
+            }
+        },
+        "agg.raw_MIROC3.2_R3_hist": {
+            "train": {
+                "correlation": 0.12273819714298562,
+                "zero_pred_ratio": 0.28114305270362766,
+                "rmse": 1.4605298596911283,
+                "max_cdf_distance": 0.11290514107291683,
+                "area_between_cdfs": 0.1773019664955479
+            },
+            "validation": {
+                "correlation": 0.12158261467766436,
+                "zero_pred_ratio": 0.27652292950034224,
+                "rmse": 1.3500542098631727,
+                "max_cdf_distance": 0.13617896885537267,
+                "area_between_cdfs": 0.1169527613043592
+            }
+        }
+    },
+    "LSTM_MonthlyLosses": {
+        "agg.raw_CCCMA3.1_R1_hist": {
+            "train": {
+                "correlation": 0.7137967359742405,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.1118137684137552,
+                "max_cdf_distance": 0.7621292250354499,
+                "area_between_cdfs": 0.5375912933111635
+            },
+            "validation": {
+                "correlation": 0.4981074588754142,
+                "zero_pred_ratio": 0.0,
+                "rmse": 0.983023320847964,
+                "max_cdf_distance": 0.777745724774565,
+                "area_between_cdfs": 0.5218903491260738
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R1_hist": {
+            "train": {
+                "correlation": 0.5013402105472559,
+                "zero_pred_ratio": 0.7027720739219713,
+                "rmse": 1.6191875346758617,
+                "max_cdf_distance": 0.473305954825462,
+                "area_between_cdfs": 0.15435250455330315
+            },
+            "validation": {
+                "correlation": 0.5600238055462973,
+                "zero_pred_ratio": 0.70362765229295,
+                "rmse": 1.6406486098469932,
+                "max_cdf_distance": 0.4120465434633812,
+                "area_between_cdfs": 0.1695763051033414
+            }
+        },
+        "agg.raw_ECHAM5_R1_hist": {
+            "train": {
+                "correlation": -0.18772016839604816,
+                "zero_pred_ratio": 0.48973305954825463,
+                "rmse": 1.023702701477085,
+                "max_cdf_distance": 0.26026694045174537,
+                "area_between_cdfs": 0.2733731497326539
+            },
+            "validation": {
+                "correlation": -0.16586759684213273,
+                "zero_pred_ratio": 0.4989733059548255,
+                "rmse": 0.8926435511053258,
+                "max_cdf_distance": 0.2244948525036632,
+                "area_between_cdfs": 0.2636690370704184
+            }
+        },
+        "agg.raw_MIROC3.2_R1_hist": {
+            "train": {
+                "correlation": 0.4042527513955716,
+                "zero_pred_ratio": 0.7542778918548939,
+                "rmse": 1.4964045595375275,
+                "max_cdf_distance": 0.5248117727583846,
+                "area_between_cdfs": 0.16278441016611733
+            },
+            "validation": {
+                "correlation": 0.4346842296107809,
+                "zero_pred_ratio": 0.7515400410677618,
+                "rmse": 1.486114757020117,
+                "max_cdf_distance": 0.45995893223819306,
+                "area_between_cdfs": 0.1702113738636619
+            }
+        },
+        "agg.raw_CCCMA3.1_R2_hist": {
+            "train": {
+                "correlation": 0.2762468583938504,
+                "zero_pred_ratio": 0.7472621492128679,
+                "rmse": 1.853350704350997,
+                "max_cdf_distance": 0.5177960301163587,
+                "area_between_cdfs": 0.1892633674202269
+            },
+            "validation": {
+                "correlation": 0.32453593487301824,
+                "zero_pred_ratio": 0.7522245037645449,
+                "rmse": 1.7468892993047893,
+                "max_cdf_distance": 0.4606433949349761,
+                "area_between_cdfs": 0.17518979688507805
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R2_hist": {
+            "train": {
+                "correlation": 0.341350829982756,
+                "zero_pred_ratio": 0.7713894592744696,
+                "rmse": 1.8604519341340815,
+                "max_cdf_distance": 0.5419233401779603,
+                "area_between_cdfs": 0.20306257162917501
+            },
+            "validation": {
+                "correlation": 0.34265579005316554,
+                "zero_pred_ratio": 0.7789185489390829,
+                "rmse": 1.7970682798922946,
+                "max_cdf_distance": 0.4873374401095141,
+                "area_between_cdfs": 0.1945655413297536
+            }
+        },
+        "agg.raw_ECHAM5_R2_hist": {
+            "train": {
+                "correlation": 0.11761972999697866,
+                "zero_pred_ratio": 0.6199520876112252,
+                "rmse": 1.6409288919621492,
+                "max_cdf_distance": 0.39048596851471595,
+                "area_between_cdfs": 0.13772285990206157
+            },
+            "validation": {
+                "correlation": 0.14157750170765082,
+                "zero_pred_ratio": 0.62217659137577,
+                "rmse": 1.4917523104741675,
+                "max_cdf_distance": 0.3305954825462012,
+                "area_between_cdfs": 0.13890130853613508
+            }
+        },
+        "agg.raw_MIROC3.2_R2_hist": {
+            "train": {
+                "correlation": 0.5129158424579999,
+                "zero_pred_ratio": 0.7053388090349076,
+                "rmse": 1.6230199370797052,
+                "max_cdf_distance": 0.4758726899383984,
+                "area_between_cdfs": 0.14888991818392397
+            },
+            "validation": {
+                "correlation": 0.5112341922288173,
+                "zero_pred_ratio": 0.7118412046543463,
+                "rmse": 1.6213973769765635,
+                "max_cdf_distance": 0.4202600958247775,
+                "area_between_cdfs": 0.1704018966147531
+            }
+        },
+        "agg.raw_CCCMA3.1_R3_hist": {
+            "train": {
+                "correlation": 0.6469344693699092,
+                "zero_pred_ratio": 0.5918891170431212,
+                "rmse": 1.410581495662862,
+                "max_cdf_distance": 0.3624229979466119,
+                "area_between_cdfs": 0.13028887713743492
+            },
+            "validation": {
+                "correlation": 0.5974405055122994,
+                "zero_pred_ratio": 0.6057494866529775,
+                "rmse": 1.3453275255830546,
+                "max_cdf_distance": 0.3141683778234087,
+                "area_between_cdfs": 0.16101398305221076
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R3_hist": {
+            "train": {
+                "correlation": 0.3637271606393834,
+                "zero_pred_ratio": 0.9946954140999316,
+                "rmse": 1.0230705388670651,
+                "max_cdf_distance": 0.7652292950034223,
+                "area_between_cdfs": 0.3448364948549649
+            },
+            "validation": {
+                "correlation": 0.33194557493975285,
+                "zero_pred_ratio": 0.9856262833675564,
+                "rmse": 0.9124501419797809,
+                "max_cdf_distance": 0.6940451745379876,
+                "area_between_cdfs": 0.29552975691448025
+            }
+        },
+        "agg.raw_ECHAM5_R3_hist": {
+            "train": {
+                "correlation": -0.048890840249670185,
+                "zero_pred_ratio": 0.45431211498973306,
+                "rmse": 1.3958176533622981,
+                "max_cdf_distance": 0.22484599589322382,
+                "area_between_cdfs": 0.1772946640811918
+            },
+            "validation": {
+                "correlation": -0.052582630756457166,
+                "zero_pred_ratio": 0.44353182751540043,
+                "rmse": 1.384347530866594,
+                "max_cdf_distance": 0.15195071868583165,
+                "area_between_cdfs": 0.21747191348744319
+            }
+        },
+        "agg.raw_MIROC3.2_R3_hist": {
+            "train": {
+                "correlation": 0.03614767416183077,
+                "zero_pred_ratio": 0.7257015742642026,
+                "rmse": 1.4456593337338683,
+                "max_cdf_distance": 0.4962354551676933,
+                "area_between_cdfs": 0.21653589209856633
+            },
+            "validation": {
+                "correlation": 0.06759459211759743,
+                "zero_pred_ratio": 0.7214236824093087,
+                "rmse": 1.4017346734530327,
+                "max_cdf_distance": 0.4298425735797399,
+                "area_between_cdfs": 0.219923583900969
+            }
+        }
+    },
+    "LSTM_BasicLosses": {
+        "agg.raw_CCCMA3.1_R1_hist": {
+            "train": {
+                "correlation": 0.2277197339278506,
+                "zero_pred_ratio": 0.2405886379192334,
+                "rmse": 1.3453497008816973,
+                "max_cdf_distance": 0.10601141871989106,
+                "area_between_cdfs": 0.11644371720388
+            },
+            "validation": {
+                "correlation": 0.2878821436801175,
+                "zero_pred_ratio": 0.21697467488021902,
+                "rmse": 1.2557944788398379,
+                "max_cdf_distance": 0.2092583135659809,
+                "area_between_cdfs": 0.1418000546669246
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R1_hist": {
+            "train": {
+                "correlation": 0.45652837777103666,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.25475475456469,
+                "max_cdf_distance": 0.6371978474471882,
+                "area_between_cdfs": 0.31254807382973426
+            },
+            "validation": {
+                "correlation": 0.461746738213558,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.2192378144758713,
+                "max_cdf_distance": 0.682314657728044,
+                "area_between_cdfs": 0.31676189057801485
+            }
+        },
+        "agg.raw_ECHAM5_R1_hist": {
+            "train": {
+                "correlation": 0.2970969380113535,
+                "zero_pred_ratio": 0.12816563997262148,
+                "rmse": 1.2695135146763474,
+                "max_cdf_distance": 0.19733774870004134,
+                "area_between_cdfs": 0.09318854653991998
+            },
+            "validation": {
+                "correlation": 0.28631333509018375,
+                "zero_pred_ratio": 0.11293634496919917,
+                "rmse": 1.1444583677539935,
+                "max_cdf_distance": 0.30668994756471807,
+                "area_between_cdfs": 0.11620321409831563
+            }
+        },
+        "agg.raw_MIROC3.2_R1_hist": {
+            "train": {
+                "correlation": 0.24496876886208502,
+                "zero_pred_ratio": 0.14442162902121836,
+                "rmse": 1.3112785110002054,
+                "max_cdf_distance": 0.24626500739200818,
+                "area_between_cdfs": 0.10022831871401378
+            },
+            "validation": {
+                "correlation": 0.22340766684432883,
+                "zero_pred_ratio": 0.17111567419575632,
+                "rmse": 1.306515221805474,
+                "max_cdf_distance": 0.30778614352244077,
+                "area_between_cdfs": 0.20973791128030939
+            }
+        },
+        "agg.raw_CCCMA3.1_R2_hist": {
+            "train": {
+                "correlation": 0.14650834969743853,
+                "zero_pred_ratio": 0.2831964407939767,
+                "rmse": 1.6229288188716633,
+                "max_cdf_distance": 0.09716522499694297,
+                "area_between_cdfs": 0.14225185231273424
+            },
+            "validation": {
+                "correlation": 0.1594524249019691,
+                "zero_pred_ratio": 0.2457221081451061,
+                "rmse": 1.6020764671020662,
+                "max_cdf_distance": 0.22608432171065518,
+                "area_between_cdfs": 0.23495459363504656
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R2_hist": {
+            "train": {
+                "correlation": 0.2197661736567541,
+                "zero_pred_ratio": 0.25804243668720056,
+                "rmse": 1.6534054950833248,
+                "max_cdf_distance": 0.1087463765213712,
+                "area_between_cdfs": 0.13067152438151453
+            },
+            "validation": {
+                "correlation": 0.19402527112209758,
+                "zero_pred_ratio": 0.2874743326488706,
+                "rmse": 1.7923479253835817,
+                "max_cdf_distance": 0.17517356157836855,
+                "area_between_cdfs": 0.38754023891516787
+            }
+        },
+        "agg.raw_ECHAM5_R2_hist": {
+            "train": {
+                "correlation": 0.30149755701396547,
+                "zero_pred_ratio": 0.05509924709103354,
+                "rmse": 1.361812068179789,
+                "max_cdf_distance": 0.472693995821182,
+                "area_between_cdfs": 0.14390250757542272
+            },
+            "validation": {
+                "correlation": 0.2873673155062039,
+                "zero_pred_ratio": 0.06297056810403832,
+                "rmse": 1.2722808850346432,
+                "max_cdf_distance": 0.5275899705371424,
+                "area_between_cdfs": 0.21196022994258035
+            }
+        },
+        "agg.raw_MIROC3.2_R2_hist": {
+            "train": {
+                "correlation": 0.2365256813818788,
+                "zero_pred_ratio": 0.1834360027378508,
+                "rmse": 1.4931107211926702,
+                "max_cdf_distance": 0.1504618631756796,
+                "area_between_cdfs": 0.11170274995136581
+            },
+            "validation": {
+                "correlation": 0.2366650208894169,
+                "zero_pred_ratio": 0.22313483915126625,
+                "rmse": 1.5305805231264398,
+                "max_cdf_distance": 0.24791727022820143,
+                "area_between_cdfs": 0.28701055449065993
+            }
+        },
+        "agg.raw_CCCMA3.1_R3_hist": {
+            "train": {
+                "correlation": 0.2861576608224852,
+                "zero_pred_ratio": 0.3678986995208761,
+                "rmse": 1.1953403977149064,
+                "max_cdf_distance": 0.13843258042436687,
+                "area_between_cdfs": 0.09762815366493786
+            },
+            "validation": {
+                "correlation": 0.2973859284665744,
+                "zero_pred_ratio": 0.35797399041752226,
+                "rmse": 1.1597951599899794,
+                "max_cdf_distance": 0.1871691952562698,
+                "area_between_cdfs": 0.17806620775488158
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R3_hist": {
+            "train": {
+                "correlation": 0.3145718114672122,
+                "zero_pred_ratio": 0.28439425051334705,
+                "rmse": 1.180566163808447,
+                "max_cdf_distance": 0.13829447076280016,
+                "area_between_cdfs": 0.06778029879490627
+            },
+            "validation": {
+                "correlation": 0.314137709153076,
+                "zero_pred_ratio": 0.3326488706365503,
+                "rmse": 1.190084938303696,
+                "max_cdf_distance": 0.16984587657566302,
+                "area_between_cdfs": 0.15399426920394388
+            }
+        },
+        "agg.raw_ECHAM5_R3_hist": {
+            "train": {
+                "correlation": 0.39270449626083676,
+                "zero_pred_ratio": 0.33145106091718,
+                "rmse": 1.1707498118492947,
+                "max_cdf_distance": 0.11646316707669324,
+                "area_between_cdfs": 0.081524746756052
+            },
+            "validation": {
+                "correlation": 0.38571617893386334,
+                "zero_pred_ratio": 0.2915811088295688,
+                "rmse": 1.0374832906041702,
+                "max_cdf_distance": 0.22324069529632834,
+                "area_between_cdfs": 0.13414549598292402
+            }
+        },
+        "agg.raw_MIROC3.2_R3_hist": {
+            "train": {
+                "correlation": 0.2906716744705127,
+                "zero_pred_ratio": 0.3702943189596167,
+                "rmse": 1.2233414894298023,
+                "max_cdf_distance": 0.14082819986310743,
+                "area_between_cdfs": 0.1175660973349085
+            },
+            "validation": {
+                "correlation": 0.293908365662461,
+                "zero_pred_ratio": 0.351129363449692,
+                "rmse": 1.1652865141034725,
+                "max_cdf_distance": 0.16131278129809773,
+                "area_between_cdfs": 0.1685781020026706
+            }
+        }
+    },
+    "LSTM_MonthlyBasic": {
+        "agg.raw_CCCMA3.1_R1_hist": {
+            "train": {
+                "correlation": 0.9429074235888124,
+                "zero_pred_ratio": 0.003080082135523614,
+                "rmse": 1.1655792688497528,
+                "max_cdf_distance": 0.67886126642838,
+                "area_between_cdfs": 0.35492259778885243
+            },
+            "validation": {
+                "correlation": 0.9669596502118601,
+                "zero_pred_ratio": 0.01574264202600958,
+                "rmse": 1.0397315114938102,
+                "max_cdf_distance": 0.7059836345374528,
+                "area_between_cdfs": 0.33632097269541894
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R1_hist": {
+            "train": {
+                "correlation": 0.23059324962753686,
+                "zero_pred_ratio": 0.6409993155373033,
+                "rmse": 1.5202187249983854,
+                "max_cdf_distance": 0.411533196440794,
+                "area_between_cdfs": 0.12411930625569834
+            },
+            "validation": {
+                "correlation": 0.24647180701105031,
+                "zero_pred_ratio": 0.648186173853525,
+                "rmse": 1.4323392253827363,
+                "max_cdf_distance": 0.35660506502395617,
+                "area_between_cdfs": 0.13553834360666667
+            }
+        },
+        "agg.raw_ECHAM5_R1_hist": {
+            "train": {
+                "correlation": 0.56964659998598,
+                "zero_pred_ratio": 0.5227583846680356,
+                "rmse": 1.159686377043713,
+                "max_cdf_distance": 0.2932922655715263,
+                "area_between_cdfs": 0.08636896121262848
+            },
+            "validation": {
+                "correlation": 0.555244123189551,
+                "zero_pred_ratio": 0.5003422313483915,
+                "rmse": 1.1741676414842308,
+                "max_cdf_distance": 0.20876112251882273,
+                "area_between_cdfs": 0.16565715099018366
+            }
+        },
+        "agg.raw_MIROC3.2_R1_hist": {
+            "train": {
+                "correlation": 0.6996719756850486,
+                "zero_pred_ratio": 0.4589322381930185,
+                "rmse": 1.2978252220868056,
+                "max_cdf_distance": 0.22946611909650924,
+                "area_between_cdfs": 0.1012682080742003
+            },
+            "validation": {
+                "correlation": 0.7379097808526239,
+                "zero_pred_ratio": 0.49075975359342916,
+                "rmse": 1.217992951812014,
+                "max_cdf_distance": 0.19917864476386038,
+                "area_between_cdfs": 0.1127944193081329
+            }
+        },
+        "agg.raw_CCCMA3.1_R2_hist": {
+            "train": {
+                "correlation": 0.5850107521622687,
+                "zero_pred_ratio": 0.4765571526351814,
+                "rmse": 1.559377154111236,
+                "max_cdf_distance": 0.24709103353867215,
+                "area_between_cdfs": 0.20955739954512675
+            },
+            "validation": {
+                "correlation": 0.6175884264048225,
+                "zero_pred_ratio": 0.4914442162902122,
+                "rmse": 1.4264797005161007,
+                "max_cdf_distance": 0.1998631074606434,
+                "area_between_cdfs": 0.2228556313750277
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R2_hist": {
+            "train": {
+                "correlation": 0.40788212236887994,
+                "zero_pred_ratio": 0.4924709103353867,
+                "rmse": 1.537578884254402,
+                "max_cdf_distance": 0.26300479123887743,
+                "area_between_cdfs": 0.26191735290862694
+            },
+            "validation": {
+                "correlation": 0.4298090128553977,
+                "zero_pred_ratio": 0.4941820670773443,
+                "rmse": 1.3986662528719607,
+                "max_cdf_distance": 0.20260095824777552,
+                "area_between_cdfs": 0.2914803680062283
+            }
+        },
+        "agg.raw_ECHAM5_R2_hist": {
+            "train": {
+                "correlation": 0.8304603971336253,
+                "zero_pred_ratio": 0.24537987679671458,
+                "rmse": 1.3310574264869166,
+                "max_cdf_distance": 0.3157947330150236,
+                "area_between_cdfs": 0.19341389571042522
+            },
+            "validation": {
+                "correlation": 0.8228700706739661,
+                "zero_pred_ratio": 0.24161533196440793,
+                "rmse": 1.237617332910182,
+                "max_cdf_distance": 0.36590260386911594,
+                "area_between_cdfs": 0.1908340447308326
+            }
+        },
+        "agg.raw_MIROC3.2_R2_hist": {
+            "train": {
+                "correlation": 0.8003638734134622,
+                "zero_pred_ratio": 0.4289869952087611,
+                "rmse": 1.4010428256112735,
+                "max_cdf_distance": 0.19952087611225186,
+                "area_between_cdfs": 0.1291538606121822
+            },
+            "validation": {
+                "correlation": 0.8560095463478169,
+                "zero_pred_ratio": 0.458590006844627,
+                "rmse": 1.3357418379932295,
+                "max_cdf_distance": 0.1670088980150582,
+                "area_between_cdfs": 0.15369892959523646
+            }
+        },
+        "agg.raw_CCCMA3.1_R3_hist": {
+            "train": {
+                "correlation": 0.6420401673009696,
+                "zero_pred_ratio": 0.6863449691991786,
+                "rmse": 1.2632542816025176,
+                "max_cdf_distance": 0.4570232112652654,
+                "area_between_cdfs": 0.10183337362266247
+            },
+            "validation": {
+                "correlation": 0.6496726489993802,
+                "zero_pred_ratio": 0.7002053388090349,
+                "rmse": 1.2369307754528225,
+                "max_cdf_distance": 0.4086242299794661,
+                "area_between_cdfs": 0.12182861413270911
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R3_hist": {
+            "train": {
+                "correlation": 0.611445876045265,
+                "zero_pred_ratio": 0.6584531143052703,
+                "rmse": 1.1823518068514565,
+                "max_cdf_distance": 0.42898699520876105,
+                "area_between_cdfs": 0.08564874514336471
+            },
+            "validation": {
+                "correlation": 0.5842135452983621,
+                "zero_pred_ratio": 0.6331279945242985,
+                "rmse": 1.235145424664407,
+                "max_cdf_distance": 0.3415468856947297,
+                "area_between_cdfs": 0.15865628385685776
+            }
+        },
+        "agg.raw_ECHAM5_R3_hist": {
+            "train": {
+                "correlation": 0.5478607948221045,
+                "zero_pred_ratio": 0.5689596167008898,
+                "rmse": 1.1489304091519321,
+                "max_cdf_distance": 0.3394934976043805,
+                "area_between_cdfs": 0.10857444476433371
+            },
+            "validation": {
+                "correlation": 0.5630763121548231,
+                "zero_pred_ratio": 0.6091718001368925,
+                "rmse": 1.1102437102417415,
+                "max_cdf_distance": 0.31759069130732376,
+                "area_between_cdfs": 0.13041647929347938
+            }
+        },
+        "agg.raw_MIROC3.2_R3_hist": {
+            "train": {
+                "correlation": 0.8221691516263044,
+                "zero_pred_ratio": 0.5037645448323066,
+                "rmse": 1.2469272259458122,
+                "max_cdf_distance": 0.2742984257357973,
+                "area_between_cdfs": 0.08884422765969832
+            },
+            "validation": {
+                "correlation": 0.8413517470092348,
+                "zero_pred_ratio": 0.5112936344969199,
+                "rmse": 1.1682149314153096,
+                "max_cdf_distance": 0.2197125256673511,
+                "area_between_cdfs": 0.10796171702746388
+            }
+        }
+    },
+    "LSTM_MSE": {
+        "agg.raw_CCCMA3.1_R1_hist": {
+            "train": {
+                "correlation": -0.1872387766177365,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.1096424363481736,
+                "max_cdf_distance": 0.7527570083215355,
+                "area_between_cdfs": 0.5196349014936558
+            },
+            "validation": {
+                "correlation": -0.09658699661590814,
+                "zero_pred_ratio": 0.0,
+                "rmse": 0.9853410177656465,
+                "max_cdf_distance": 0.7781894754596367,
+                "area_between_cdfs": 0.5067856520432134
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R1_hist": {
+            "train": {
+                "correlation": 0.7253535340765148,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.1919925444900197,
+                "max_cdf_distance": 0.7440357539729544,
+                "area_between_cdfs": 0.559344573906609
+            },
+            "validation": {
+                "correlation": 0.7344492262494922,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.0560350713081625,
+                "max_cdf_distance": 0.768524875336372,
+                "area_between_cdfs": 0.5408382185382523
+            }
+        },
+        "agg.raw_ECHAM5_R1_hist": {
+            "train": {
+                "correlation": -0.19686620065082105,
+                "zero_pred_ratio": 0.0,
+                "rmse": 0.9917500526987192,
+                "max_cdf_distance": 0.7457767424148265,
+                "area_between_cdfs": 0.476015903574603
+            },
+            "validation": {
+                "correlation": -0.3348498784807902,
+                "zero_pred_ratio": 0.0006844626967830253,
+                "rmse": 0.878255004464511,
+                "max_cdf_distance": 0.7741527655162094,
+                "area_between_cdfs": 0.46307694179933256
+            }
+        },
+        "agg.raw_MIROC3.2_R1_hist": {
+            "train": {
+                "correlation": 0.7249396638702332,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.0866217745326474,
+                "max_cdf_distance": 0.7718957624967884,
+                "area_between_cdfs": 0.5227065884431505
+            },
+            "validation": {
+                "correlation": 0.6946494308353417,
+                "zero_pred_ratio": 0.0,
+                "rmse": 0.9622371677677789,
+                "max_cdf_distance": 0.7905134958445673,
+                "area_between_cdfs": 0.508281360786191
+            }
+        },
+        "agg.raw_CCCMA3.1_R2_hist": {
+            "train": {
+                "correlation": -0.7067875294718123,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.3468375652472286,
+                "max_cdf_distance": 0.7440223563777711,
+                "area_between_cdfs": 0.6455948004834073
+            },
+            "validation": {
+                "correlation": -0.6820031749455701,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.19271190052086,
+                "max_cdf_distance": 0.7689674209559847,
+                "area_between_cdfs": 0.6272701201275017
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R2_hist": {
+            "train": {
+                "correlation": 0.6210364532373875,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.3644299040305927,
+                "max_cdf_distance": 0.7573565305085761,
+                "area_between_cdfs": 0.6493404006261883
+            },
+            "validation": {
+                "correlation": 0.5326647789753463,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.2081276249326618,
+                "max_cdf_distance": 0.7809769824560359,
+                "area_between_cdfs": 0.6291811492944017
+            }
+        },
+        "agg.raw_ECHAM5_R2_hist": {
+            "train": {
+                "correlation": 0.6879541725720437,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.1763532866174577,
+                "max_cdf_distance": 0.7546069527451659,
+                "area_between_cdfs": 0.5652488944341496
+            },
+            "validation": {
+                "correlation": 0.4217215543944382,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.0416614505583317,
+                "max_cdf_distance": 0.7740519370025779,
+                "area_between_cdfs": 0.5489581678282809
+            }
+        },
+        "agg.raw_MIROC3.2_R2_hist": {
+            "train": {
+                "correlation": -0.15510405506494998,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.1976173506712382,
+                "max_cdf_distance": 0.7589963942925396,
+                "area_between_cdfs": 0.5764963353644076
+            },
+            "validation": {
+                "correlation": -0.1831557585095092,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.0603101248908005,
+                "max_cdf_distance": 0.7752720674391891,
+                "area_between_cdfs": 0.5602937942180616
+            }
+        },
+        "agg.raw_CCCMA3.1_R3_hist": {
+            "train": {
+                "correlation": -0.5654018080133851,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.0001250304104237,
+                "max_cdf_distance": 0.7412685565538704,
+                "area_between_cdfs": 0.4771039004520883
+            },
+            "validation": {
+                "correlation": -0.5037043384329409,
+                "zero_pred_ratio": 0.0,
+                "rmse": 0.885686881769943,
+                "max_cdf_distance": 0.7715739994097743,
+                "area_between_cdfs": 0.4635863798573689
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R3_hist": {
+            "train": {
+                "correlation": 0.8350600497195105,
+                "zero_pred_ratio": 0.0,
+                "rmse": 0.9593943965854768,
+                "max_cdf_distance": 0.7515463907766213,
+                "area_between_cdfs": 0.454337254687195
+            },
+            "validation": {
+                "correlation": 0.8082593474528402,
+                "zero_pred_ratio": 0.0,
+                "rmse": 0.8498340956139905,
+                "max_cdf_distance": 0.7785447668453551,
+                "area_between_cdfs": 0.44108705800690495
+            }
+        },
+        "agg.raw_ECHAM5_R3_hist": {
+            "train": {
+                "correlation": 0.13995257461063537,
+                "zero_pred_ratio": 0.0,
+                "rmse": 0.9719279053849292,
+                "max_cdf_distance": 0.7645786492453134,
+                "area_between_cdfs": 0.46489855389385604
+            },
+            "validation": {
+                "correlation": 0.4236070135303166,
+                "zero_pred_ratio": 0.0,
+                "rmse": 0.8606025554805011,
+                "max_cdf_distance": 0.7866812937621687,
+                "area_between_cdfs": 0.45299878038907615
+            }
+        },
+        "agg.raw_MIROC3.2_R3_hist": {
+            "train": {
+                "correlation": -0.1763425048429609,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.0300970900191668,
+                "max_cdf_distance": 0.7562042608503143,
+                "area_between_cdfs": 0.4845340190758535
+            },
+            "validation": {
+                "correlation": -0.18721144164906808,
+                "zero_pred_ratio": 0.0,
+                "rmse": 0.9137807761868456,
+                "max_cdf_distance": 0.7812806371495695,
+                "area_between_cdfs": 0.47127248122806764
+            }
+        }
+    },
+    "QuantileMapping": {
+        "agg.raw_CCCMA3.1_R1_hist": {
+            "train": {
+                "correlation": 0.9956307891499544,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.5770836383182238,
+                "max_cdf_distance": 0.2292950034223135,
+                "area_between_cdfs": 6.372305463981683e-05
+            },
+            "validation": {
+                "correlation": 0.9984041491756402,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.390738344644224,
+                "max_cdf_distance": 0.21423682409308692,
+                "area_between_cdfs": 0.08473744575211725
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R1_hist": {
+            "train": {
+                "correlation": 0.9576444584830714,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.671298878564632,
+                "max_cdf_distance": 0.229637234770705,
+                "area_between_cdfs": 7.308196493450484e-05
+            },
+            "validation": {
+                "correlation": 0.9471713728609231,
+                "zero_pred_ratio": 0.0,
+                "rmse": 2.284720059233687,
+                "max_cdf_distance": 0.2292950034223135,
+                "area_between_cdfs": 0.16659022564870465
+            }
+        },
+        "agg.raw_ECHAM5_R1_hist": {
+            "train": {
+                "correlation": 0.9885261480242739,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.4039517901077694,
+                "max_cdf_distance": 0.2292950034223135,
+                "area_between_cdfs": 6.105915932725563e-05
+            },
+            "validation": {
+                "correlation": 0.9936148018759668,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.4170966646608985,
+                "max_cdf_distance": 0.22518822724161533,
+                "area_between_cdfs": 0.07745440442860342
+            }
+        },
+        "agg.raw_MIROC3.2_R1_hist": {
+            "train": {
+                "correlation": 0.9901514574599245,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.5262544262110807,
+                "max_cdf_distance": 0.22946611909650924,
+                "area_between_cdfs": 6.510823933150314e-05
+            },
+            "validation": {
+                "correlation": 0.9940247318120604,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.5368697496609915,
+                "max_cdf_distance": 0.2299794661190965,
+                "area_between_cdfs": 0.10205621797162313
+            }
+        },
+        "agg.raw_CCCMA3.1_R2_hist": {
+            "train": {
+                "correlation": 0.9890674579686425,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.913372278033912,
+                "max_cdf_distance": 0.25171115674195754,
+                "area_between_cdfs": 0.00014848557180336476
+            },
+            "validation": {
+                "correlation": 0.9954409155380568,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.8572481061033776,
+                "max_cdf_distance": 0.3278576317590691,
+                "area_between_cdfs": 0.09638274776624312
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R2_hist": {
+            "train": {
+                "correlation": 0.9870495487652404,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.9226576474608268,
+                "max_cdf_distance": 0.2292950034223135,
+                "area_between_cdfs": 7.4740136756328e-05
+            },
+            "validation": {
+                "correlation": 0.9927646188170663,
+                "zero_pred_ratio": 0.0,
+                "rmse": 2.279208717275501,
+                "max_cdf_distance": 0.243668720054757,
+                "area_between_cdfs": 0.14360184725426434
+            }
+        },
+        "agg.raw_ECHAM5_R2_hist": {
+            "train": {
+                "correlation": 0.986391533296266,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.6535004748497801,
+                "max_cdf_distance": 0.2618069815195072,
+                "area_between_cdfs": 0.00014734402584497115
+            },
+            "validation": {
+                "correlation": 0.9829696598107389,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.9345441131383176,
+                "max_cdf_distance": 0.3326488706365503,
+                "area_between_cdfs": 0.09566920178318644
+            }
+        },
+        "agg.raw_MIROC3.2_R2_hist": {
+            "train": {
+                "correlation": 0.9860578018189327,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.6943638123414209,
+                "max_cdf_distance": 0.2292950034223135,
+                "area_between_cdfs": 6.868657239900093e-05
+            },
+            "validation": {
+                "correlation": 0.9948516496327691,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.6998654377383555,
+                "max_cdf_distance": 0.23134839151266257,
+                "area_between_cdfs": 0.1241107731491699
+            }
+        },
+        "agg.raw_CCCMA3.1_R3_hist": {
+            "train": {
+                "correlation": 0.9708413571864319,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.4247283179514898,
+                "max_cdf_distance": 0.24880219028062972,
+                "area_between_cdfs": 0.00010740037171114687
+            },
+            "validation": {
+                "correlation": 0.9953810201882172,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.253826594849762,
+                "max_cdf_distance": 0.3216974674880219,
+                "area_between_cdfs": 0.08355591793797115
+            }
+        },
+        "agg.raw_CSIRO.MK3.0_R3_hist": {
+            "train": {
+                "correlation": 0.9900795354428602,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.3466698405472912,
+                "max_cdf_distance": 0.2292950034223135,
+                "area_between_cdfs": 6.412865117612872e-05
+            },
+            "validation": {
+                "correlation": 0.9934470398092304,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.3703973863103385,
+                "max_cdf_distance": 0.23613963039014374,
+                "area_between_cdfs": 0.05762012287810404
+            }
+        },
+        "agg.raw_ECHAM5_R3_hist": {
+            "train": {
+                "correlation": 0.9777844707665257,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.3752408974842714,
+                "max_cdf_distance": 0.23066392881587955,
+                "area_between_cdfs": 6.481975652457656e-05
+            },
+            "validation": {
+                "correlation": 0.9931670930559221,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.1958254865110882,
+                "max_cdf_distance": 0.2915811088295688,
+                "area_between_cdfs": 0.06965717702875625
+            }
+        },
+        "agg.raw_MIROC3.2_R3_hist": {
+            "train": {
+                "correlation": 0.973545075921808,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.4583680323620993,
+                "max_cdf_distance": 0.24948665297741274,
+                "area_between_cdfs": 0.00011112007361397553
+            },
+            "validation": {
+                "correlation": 0.9912106985167727,
+                "zero_pred_ratio": 0.0,
+                "rmse": 1.3677853206517185,
+                "max_cdf_distance": 0.32306639288158795,
+                "area_between_cdfs": 0.06848678206892732
+            }
+        }
+    }
+}

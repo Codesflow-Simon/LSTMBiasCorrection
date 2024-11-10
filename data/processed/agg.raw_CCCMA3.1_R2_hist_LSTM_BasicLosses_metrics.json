@@ -1,0 +1,16 @@
+{
+    "train": {
+        "correlation": 0.14650834969743853,
+        "zero_pred_ratio": 0.2831964407939767,
+        "rmse": 1.6229288188716633,
+        "max_cdf_distance": 0.09716522499694297,
+        "area_between_cdfs": 0.14225185231273424
+    },
+    "validation": {
+        "correlation": 0.1594524249019691,
+        "zero_pred_ratio": 0.2457221081451061,
+        "rmse": 1.6020764671020662,
+        "max_cdf_distance": 0.22608432171065518,
+        "area_between_cdfs": 0.23495459363504656
+    }
+}
